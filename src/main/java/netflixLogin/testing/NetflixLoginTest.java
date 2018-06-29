@@ -1,4 +1,5 @@
 package netflixLogin.testing;
+
 import netflixLogin.BaseTests;
 import netflixLogin.ContentPage;
 import netflixLogin.LoginPage;
@@ -12,6 +13,5 @@ public class NetflixLoginTest extends BaseTests {
         NetflixHomePage home = getNetflixHome();
         LoginPage loginPage = home.clickAction();
         ContentPage contentPage = loginPage.loginAction("martaelisarodriguez@hotmail.com", "MARTA52LEO");
-        //assertThat()''
     }
 }

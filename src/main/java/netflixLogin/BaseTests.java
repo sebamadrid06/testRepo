@@ -11,9 +11,9 @@ public class BaseTests {
 
     private NetflixHomePage netflixHome;
 
-    @BeforeSuite(alwaysRun=true)
+    @BeforeSuite(alwaysRun = true)
     @Parameters({"browser"})
-    public void beforeSuite(String browser){
+    public void beforeSuite(String browser) {
 
         myDriver = new ADriver(browser);
         netflixHome = new NetflixHomePage(myDriver.getDriver());
@@ -21,7 +21,7 @@ public class BaseTests {
     }
 
     @AfterSuite(alwaysRun = true)
-    public void afterSuite(){
+    public void afterSuite() {
 
         netflixHome.dispose();
 
