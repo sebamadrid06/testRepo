@@ -10,11 +10,10 @@ public class BasePage {
     private WebDriverWait wait;
 
     public BasePage(WebDriver pdriver) {
-
-        wait = new WebDriverWait(pdriver,10);
+        wait = new WebDriverWait(pdriver, 10);
         PageFactory.initElements(pdriver, this);
-        pdriver=driver;
-            }
+       driver = pdriver;
+    }
 
     public WebDriver getPdriver() {
         return driver;
@@ -26,11 +25,8 @@ public class BasePage {
 
 
     public void dispose() {
-
         if (driver != null) {
             driver.quit();
         }
-
-
     }
 }

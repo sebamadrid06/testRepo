@@ -1,16 +1,19 @@
 package netflixLogin;
 
+import com.google.common.base.Preconditions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.Parameters;
 
 public class LoginPage extends BasePage {
 
 
     public LoginPage(WebDriver pdriver) {
         super(pdriver);
+
     }
 
     @FindBy(id = "email")
@@ -22,13 +25,17 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//button[@class='btn login-button btn-submit btn-small']")
     private WebElement sendCredentialsButton;
 
-    public void loginAction(String userName, String userPassword){
+    @Parameters({"username","password"})
+    public ContentPage loginAction(String username, String password){
 
-        emailField.sendKeys(userName);
-        passwordField.sendKeys((userPassword));
+        emailField.sendKeys(username);
+        passwordField.sendKeys(password);
         getWait().until(ExpectedConditions.elementToBeClickable(sendCredentialsButton));
         sendCredentialsButton.click();
+        return new ContentPage(getPdriver());
     }
+
+
 
 
 

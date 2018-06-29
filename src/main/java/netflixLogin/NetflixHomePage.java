@@ -3,6 +3,7 @@ package netflixLogin;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
 
 public class NetflixHomePage extends BasePage{
 
@@ -15,7 +16,9 @@ public class NetflixHomePage extends BasePage{
     @FindBy(xpath="//a[@href='/login']")
     private WebElement loginButton;
 
-   public LoginPage loginAction(){
+
+   public LoginPage clickAction(){
+
 
     loginButton.click();
     return new LoginPage(getPdriver());
