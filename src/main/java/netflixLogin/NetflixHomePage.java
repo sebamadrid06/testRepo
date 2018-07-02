@@ -15,7 +15,9 @@ public class NetflixHomePage extends BasePage{
     @FindBy(xpath="//a[@href='/login']")
     private WebElement loginButton;
 
-   public LoginPage loginAction(){
+
+   public LoginPage clickAction(){
+
 
     loginButton.click();
     return new LoginPage(getPdriver());
