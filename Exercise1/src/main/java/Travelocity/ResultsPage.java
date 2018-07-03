@@ -45,15 +45,14 @@ public class ResultsPage extends BasePage{
 
 
     public void checkButton() {
-
+        int numberOfButtons = 0;
         System.out.println("OK");
         List <WebElement> obj = getDriver().findElements(By.xpath("//ul[@id='flightModuleList']"));
 
         for (int i = 0 ; i <obj.size() ; i++)
         {
             WebElement item = obj.get(i);
-            System.out.println("****"+item.getText());
-        }
+            System.out.println(item.getText());
 
 
     }
