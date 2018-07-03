@@ -12,12 +12,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestingExercise1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/testing/TestingExercise1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/ResultsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/NewDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="19" column="128" selection-start-line="19" selection-start-column="128" selection-end-line="19" selection-end-column="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +104,11 @@
         <option value="$PROJECT_DIR$/src/main/java/testing/Suite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testing/TestingExercise1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Travelocity/testing/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Travelocity/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Travelocity/testing/TestingExercise1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Travelocity/NewDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Travelocity/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Travelocity/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Travelocity/ResultsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Travelocity/HomePage.java" />
       </list>
     </option>
@@ -62,7 +122,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="width" value="1260" />
     <option name="height" value="735" />
@@ -72,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -117,16 +176,22 @@
               <item name="Travelocity" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exercise1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercise1" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/testing/Suite.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -239,25 +304,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 02m 25s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 03m 07s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 03m 58s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 03m 57s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 05m 36s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 04m 44s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 07m 24s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 07m 41s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 10m 45s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 09m 32s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 22m 30s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 12m 20s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 17h 25m 48s.xml">
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 23m 49s.xml">
+      <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 24m 39s.xml">
+      <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 33m 32s.xml">
+      <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_hugo_madrid_Desktop_Project_Exercise1_src_main_java_Travelocity_testing_Suite_xml - 2018.07.02 at 23h 36m 08s.xml">
       <configuration name="C:/Users/hugo.madrid/Desktop/Project/Exercise1/src/main/java/Travelocity/testing/Suite.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -266,36 +340,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32991204" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22767204" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20717423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +378,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
@@ -312,50 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/NewDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/NewListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/ResultsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -366,30 +409,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/testing/TestingExercise1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.9.1/selenium-support-3.9.1.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="115">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <folding>
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7199#7200#0" expanded="true" />
+            <element signature="e#7452#7453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.9.1/selenium-remote-driver-3.9.1.jar!/org/openqa/selenium/interactions/internal/SingleKeyAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.9.1/selenium-support-3.9.1.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/NewDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        <state relative-caret-position="244">
+          <caret line="19" column="128" selection-start-line="19" selection-start-column="128" selection-end-line="19" selection-end-column="128" />
           <folding>
-            <element signature="e#7452#7453#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/testing/TestingExercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/ResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Travelocity/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="204">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

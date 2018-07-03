@@ -1,5 +1,6 @@
 package Travelocity;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,13 +17,22 @@ public class HomePage extends BasePage{
         pdriver.get("http://travelocity.com");
     }
 
-    @FindBy(xpath = "//button[@id='tab-flight-tab-hp']//span[@class='tab-label']")
+
+
+    @FindBy(id ="tab-flight-tab-hp")
     private WebElement flightsButton;
 
-    @FindBy(xpath ="//input[@id='flight-origin-hp-flight']" )
+    @FindBy(xpath = "//a[@id='aria-option-0']//span[@class='text']//div[@class='multiLineDisplay']")
+    private WebElement selectOrigin;
+
+    @FindBy(xpath = "//a[@id='aria-option-0']//span[@class='text']//div[@class='multiLineDisplay']")
+    private WebElement selectDestiny;
+
+
+    @FindBy(id = "flight-origin-hp-flight")
     private WebElement flyingFrom;
 
-    @FindBy(xpath = "//input[@id='flight-destination-hp-flight']")
+    @FindBy(id = "flight-destination-hp-flight")
     private WebElement flyingTo;
 
     @FindBy(id = "flight-type-roundtrip-label-hp-flight")
@@ -34,8 +44,13 @@ public class HomePage extends BasePage{
     @FindBy(id = "flight-returning-hp-flight")
     private  WebElement returningDate;
 
-    @FindBy(id = "flight-adults-hp-flight")
-    private Select adultsCombo;
+    //@FindBy(id = "flight-adults-hp-flight")
+    //private Select adultsCombo;
+
+    //@FindBy(id = "flight-adults-hp-flight")
+    //private  WebElement adults;
+
+
 
     @FindBy(xpath = "//html//section[@id='WizardHero']//button[2]")
     private WebElement calendarNextButton;
@@ -58,24 +73,25 @@ public class HomePage extends BasePage{
 
     public ResultsPage searchFlightAction(){
 
-        getWait().until(ExpectedConditions.elementToBeClickable(flightsButton));
+//        getWait().until(ExpectedConditions.elementToBeClickable(flightsButton));
         flightsButton.click();
         roundtripButton.click();
         flyingFrom.click();
         flyingFrom.sendKeys("buenos aires");
         getWait().until(ExpectedConditions.elementToBeClickable(cityResults));
-        action.keyDown(Keys.RETURN);
+        selectOrigin.click();
         flyingTo.click();
         flyingTo.sendKeys("london");
         getWait().until(ExpectedConditions.elementToBeClickable(cityResults));
-        action.keyDown(Keys.RETURN);
+        selectDestiny.click();
         departingDate.click();
-        getWait().until(ExpectedConditions.elementToBeClickable(cityResults));
         calendarNextButton.click();
         calendarNextButton.click();
         departingDay.click();
+        returningDate.click();
         returningDay.click();
-        adultsCombo.selectByValue("1");
+        Select adultos = new Select(getDriver().findElement(By.id("flight-adults-hp-flight")));
+        adultos.selectByValue("1");
         searchButton.click();
 
 

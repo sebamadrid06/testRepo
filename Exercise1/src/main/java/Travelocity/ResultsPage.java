@@ -6,6 +6,9 @@ public class ResultsPage extends BasePage{
 
 
     public ResultsPage(WebDriver pdriver) {
+
         super(pdriver);
+
     }
+
 }

@@ -19,12 +19,12 @@ NewDriver myDriver;
     myDriver = new NewDriver(browser);
     homePage = new HomePage(myDriver.getDriver());
 }
-@AfterSuite(alwaysRun = true)
-public void afterSuite(){
+//@AfterSuite(alwaysRun = true)
+//public void afterSuite(){
 
-    homePage.dispose();
+ //   homePage.dispose();
 
-}
+//}
 
     public HomePage getHomePage() {
         return homePage;

@@ -17,7 +17,7 @@ public class NewDriver {
         }
 
         if(browser.equals("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\hugo.madrid\\Desktop\\Project\\Exercise1\\chromedriver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\sebam\\Desktop\\Project\\testRepo\\Exercise1\\chromedriver\\chromedriver.exe");
             driver = new ChromeDriver();
 
         }
