@@ -15,7 +15,8 @@ public void init(){
 
     HomePage home = getHomePage();
     ResultsPage results = home.searchFlightAction();
-
+    results.checkElements();
+    results.checkButton();
 
 }
 

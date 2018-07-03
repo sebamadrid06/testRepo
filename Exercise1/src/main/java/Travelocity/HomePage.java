@@ -14,10 +14,10 @@ public class HomePage extends BasePage{
     Actions action = new Actions(getDriver());
     public HomePage(WebDriver pdriver) {
         super(pdriver);
+        pdriver.manage().window().maximize();
         pdriver.get("http://travelocity.com");
+
     }
-
-
 
     @FindBy(id ="tab-flight-tab-hp")
     private WebElement flightsButton;
@@ -43,13 +43,6 @@ public class HomePage extends BasePage{
 
     @FindBy(id = "flight-returning-hp-flight")
     private  WebElement returningDate;
-
-    //@FindBy(id = "flight-adults-hp-flight")
-    //private Select adultsCombo;
-
-    //@FindBy(id = "flight-adults-hp-flight")
-    //private  WebElement adults;
-
 
 
     @FindBy(xpath = "//html//section[@id='WizardHero']//button[2]")

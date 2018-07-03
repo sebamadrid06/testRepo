@@ -18,6 +18,7 @@ NewDriver myDriver;
 
     myDriver = new NewDriver(browser);
     homePage = new HomePage(myDriver.getDriver());
+
 }
 //@AfterSuite(alwaysRun = true)
 //public void afterSuite(){
